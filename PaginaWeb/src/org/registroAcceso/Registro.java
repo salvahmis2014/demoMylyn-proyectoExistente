@@ -17,7 +17,7 @@ public class Registro {
 	}
 	
 	public boolean comprobarPass(Usuario user){
-		if(user.getPass().length()>6)
+		if(user.getPass().length()>8)
 			return true;
 		return false;
 	}
